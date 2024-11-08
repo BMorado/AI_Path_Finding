@@ -1,0 +1,195 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="Body.cpp">
+      <Filter>other</Filter>
+    </ClCompile>
+    <ClCompile Include="Character.cpp">
+      <Filter>other</Filter>
+    </ClCompile>
+    <ClCompile Include="GameManager.cpp">
+      <Filter>other</Filter>
+    </ClCompile>
+    <ClCompile Include="Main.cpp">
+      <Filter>other</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerBody.cpp">
+      <Filter>other</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene1.cpp">
+      <Filter>other</Filter>
+    </ClCompile>
+    <ClCompile Include="Timer.cpp">
+      <Filter>other</Filter>
+    </ClCompile>
+    <ClCompile Include="Window.cpp">
+      <Filter>other</Filter>
+    </ClCompile>
+    <ClCompile Include="KinematicSeek.cpp">
+      <Filter>Steering\Seek</Filter>
+    </ClCompile>
+    <ClCompile Include="KinematicArrive.cpp">
+      <Filter>Steering\Arrive</Filter>
+    </ClCompile>
+    <ClCompile Include="KinematicFlee.cpp">
+      <Filter>Steering\Flee</Filter>
+    </ClCompile>
+    <ClCompile Include="KinematicWander.cpp">
+      <Filter>Steering\Wander</Filter>
+    </ClCompile>
+    <ClCompile Include="Kinematic.cpp">
+      <Filter>Steering\Kinematics</Filter>
+    </ClCompile>
+    <ClCompile Include="Steering\KinematicBody.cpp">
+      <Filter>Steering\Kinematics</Filter>
+    </ClCompile>
+    <ClCompile Include="KinematicSteeringOutput.cpp">
+      <Filter>Steering\Kinematics</Filter>
+    </ClCompile>
+    <ClCompile Include="Static.cpp">
+      <Filter>Steering\Static</Filter>
+    </ClCompile>
+    <ClCompile Include="SteeringOutput.cpp">
+      <Filter>Steering\Output</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene2.cpp" />
+    <ClCompile Include="Node.cpp">
+      <Filter>Path Finding</Filter>
+    </ClCompile>
+    <ClCompile Include="Tile.cpp">
+      <Filter>Path Finding</Filter>
+    </ClCompile>
+    <ClCompile Include="Graph.cpp">
+      <Filter>Path Finding</Filter>
+    </ClCompile>
+    <ClCompile Include="Dijkstra.cpp">
+      <Filter>Path Finding</Filter>
+    </ClCompile>
+    <ClCompile Include="AiNPC.cpp">
+      <Filter>other</Filter>
+    </ClCompile>
+    <ClCompile Include="EnemyAI.cpp">
+      <Filter>other</Filter>
+    </ClCompile>
+    <ClCompile Include="StaticBody.cpp">
+      <Filter>other</Filter>
+    </ClCompile>
+    <ClCompile Include="Actor.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Body.h">
+      <Filter>other</Filter>
+    </ClInclude>
+    <ClInclude Include="Character.h">
+      <Filter>other</Filter>
+    </ClInclude>
+    <ClInclude Include="GameManager.h">
+      <Filter>other</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerBody.h">
+      <Filter>other</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene.h">
+      <Filter>other</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene1.h">
+      <Filter>other</Filter>
+    </ClInclude>
+    <ClInclude Include="Timer.h">
+      <Filter>other</Filter>
+    </ClInclude>
+    <ClInclude Include="Window.h">
+      <Filter>other</Filter>
+    </ClInclude>
+    <ClInclude Include="KinematicSeek.h">
+      <Filter>Steering\Seek</Filter>
+    </ClInclude>
+    <ClInclude Include="KinematicArrive.h">
+      <Filter>Steering\Arrive</Filter>
+    </ClInclude>
+    <ClInclude Include="KinematicFlee.h">
+      <Filter>Steering\Flee</Filter>
+    </ClInclude>
+    <ClInclude Include="KinematicWander.h">
+      <Filter>Steering\Wander</Filter>
+    </ClInclude>
+    <ClInclude Include="Kinematic.h">
+      <Filter>Steering\Kinematics</Filter>
+    </ClInclude>
+    <ClInclude Include="Steering\KinematicBody.h">
+      <Filter>Steering\Kinematics</Filter>
+    </ClInclude>
+    <ClInclude Include="KinematicSteeringOutput.h">
+      <Filter>Steering\Kinematics</Filter>
+    </ClInclude>
+    <ClInclude Include="Static.h">
+      <Filter>Steering\Static</Filter>
+    </ClInclude>
+    <ClInclude Include="SteeringOutput.h">
+      <Filter>Steering\Output</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene2.h" />
+    <ClInclude Include="Node.h">
+      <Filter>Path Finding</Filter>
+    </ClInclude>
+    <ClInclude Include="Tile.h">
+      <Filter>Path Finding</Filter>
+    </ClInclude>
+    <ClInclude Include="Graph.h">
+      <Filter>Path Finding</Filter>
+    </ClInclude>
+    <ClInclude Include="Dijkstra.h">
+      <Filter>other</Filter>
+    </ClInclude>
+    <ClInclude Include="AiNPC.h">
+      <Filter>other</Filter>
+    </ClInclude>
+    <ClInclude Include="EnemyAI.h">
+      <Filter>other</Filter>
+    </ClInclude>
+    <ClInclude Include="StaticBody.h">
+      <Filter>other</Filter>
+    </ClInclude>
+    <ClInclude Include="Actor.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Steering">
+      <UniqueIdentifier>{3c476b49-6737-48d7-b685-a59deed533f5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="other">
+      <UniqueIdentifier>{9ff5c0bc-8e0c-41d3-ac47-8ac3ccd4d7d5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Steering\Seek">
+      <UniqueIdentifier>{73765a5f-98a0-4c64-810c-88ee9ad301dd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Characters">
+      <UniqueIdentifier>{8d1eccd7-9ec5-4be5-8aa1-25f341fed65f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Steering\Arrive">
+      <UniqueIdentifier>{a7704166-cd6c-4e9a-abbb-1f77e217c83a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Steering\Flee">
+      <UniqueIdentifier>{f9fb981c-1152-4cc4-a84b-36d93dbc78c2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Steering\Wander">
+      <UniqueIdentifier>{aad04f67-b4f9-497d-92bf-adc0909f39a8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Steering\Kinematics">
+      <UniqueIdentifier>{89e537af-b170-433a-b974-0d608b0aee4a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Steering\Static">
+      <UniqueIdentifier>{3afdec35-d19d-4817-a9bf-ff4a98a6d85d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Steering\Output">
+      <UniqueIdentifier>{5d865e13-1b5a-4e71-bb7f-960d15c3051c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Path Finding">
+      <UniqueIdentifier>{1e554efe-c21a-42aa-8fc7-00549f8893a2}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="GAME307_StudentTemplate.rc">
+      <Filter>other</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>

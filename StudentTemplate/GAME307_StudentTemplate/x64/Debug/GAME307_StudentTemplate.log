@@ -1,0 +1,35 @@
+﻿  Body.cpp
+Z:\Semester 5\AI\StudentTemplate\GAME307_StudentTemplate\Body.h(4,10): error C1083: Cannot open include file: 'MMath.h': No such file or directory
+  (compiling source file 'Body.cpp')
+  
+  Character.cpp
+Z:\Semester 5\AI\StudentTemplate\GAME307_StudentTemplate\Scene.h(6,10): error C1083: Cannot open include file: 'MMath.h': No such file or directory
+  (compiling source file 'Character.cpp')
+  
+  GameManager.cpp
+Z:\Semester 5\AI\StudentTemplate\GAME307_StudentTemplate\Scene.h(6,10): error C1083: Cannot open include file: 'MMath.h': No such file or directory
+  (compiling source file 'GameManager.cpp')
+  
+  Main.cpp
+Z:\Semester 5\AI\StudentTemplate\GAME307_StudentTemplate\Scene.h(6,10): error C1083: Cannot open include file: 'MMath.h': No such file or directory
+  (compiling source file 'Main.cpp')
+  
+  PlayerBody.cpp
+Z:\Semester 5\AI\StudentTemplate\GAME307_StudentTemplate\Body.h(4,10): error C1083: Cannot open include file: 'MMath.h': No such file or directory
+  (compiling source file 'PlayerBody.cpp')
+  
+  Scene1.cpp
+Z:\Semester 5\AI\StudentTemplate\GAME307_StudentTemplate\Scene1.h(4,10): error C1083: Cannot open include file: 'MMath.h': No such file or directory
+  (compiling source file 'Scene1.cpp')
+  
+  KinematicBody.cpp
+Z:\Semester 5\AI\StudentTemplate\GAME307_StudentTemplate\Steering\KinematicBody.h(4,10): error C1083: Cannot open include file: 'Body.h': No such file or directory
+  (compiling source file 'Steering/KinematicBody.cpp')
+  
+  SteeringOutput.cpp
+Z:\Semester 5\AI\StudentTemplate\GAME307_StudentTemplate\Steering\SteeringOutput.h(4,10): error C1083: Cannot open include file: 'Vector.h': No such file or directory
+  (compiling source file 'Steering/SteeringOutput.cpp')
+  
+  Timer.cpp
+  Window.cpp
+  Generating Code...

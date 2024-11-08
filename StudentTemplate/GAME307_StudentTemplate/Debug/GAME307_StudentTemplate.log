@@ -1,0 +1,14 @@
+﻿  Scene2.cpp
+  This is wrong: Vec4 cross(const Vec4& a, const Vec4& b)
+  This questionable: Vec4 inverse(const Vec4& v)
+Z:\Semester 5\AI\StudentTemplate\GAME307_StudentTemplate\Scene2.cpp(29,15): warning C4101: 'texture': unreferenced local variable
+Z:\Semester 5\AI\StudentTemplate\GAME307_StudentTemplate\Scene2.cpp(28,15): warning C4101: 'image': unreferenced local variable
+Z:\Semester 5\AI\StudentTemplate\GAME307_StudentTemplate\Scene2.cpp(148,48): warning C4244: 'argument': conversion from 'const Sint32' to 'float', possible loss of data
+Z:\Semester 5\AI\StudentTemplate\GAME307_StudentTemplate\Scene2.cpp(148,32): warning C4244: 'argument': conversion from 'const Sint32' to 'float', possible loss of data
+Z:\Semester 5\AI\StudentTemplate\GAME307_StudentTemplate\Scene2.cpp(182,14): warning C4018: '<': signed/unsigned mismatch
+Z:\Semester 5\AI\StudentTemplate\GAME307_StudentTemplate\Scene2.cpp(204,12): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+Z:\Semester 5\AI\StudentTemplate\GAME307_StudentTemplate\Scene2.cpp(206,33): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+Z:\Semester 5\AI\StudentTemplate\GAME307_StudentTemplate\Scene2.cpp(206,30): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+  GAME307_StudentTemplate.vcxproj -> Z:\Semester 5\AI\StudentTemplate\Debug\GAME307_StudentTemplate.exe
+  'pwsh.exe' is not recognized as an internal or external command,
+  operable program or batch file.
