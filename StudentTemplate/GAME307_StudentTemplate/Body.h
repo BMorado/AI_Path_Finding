@@ -69,7 +69,7 @@ public:
     virtual SDL_Texture* getTexture() const { return texture; }
 
     virtual void HandleEvents( const SDL_Event& event );
-
+    float newOrientation(float orientation_, Vec3& vel);
 	// Added this as public to deal with my demo 
 	// so that mouse position can be copied into a Body.
     virtual void setPos( Vec3 pos );

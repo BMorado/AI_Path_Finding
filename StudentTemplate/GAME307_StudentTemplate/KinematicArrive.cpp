@@ -1,28 +1,29 @@
 #include "KinematicArrive.h"
-KinematicArrive::KinematicArrive(StaticBody* character_, Body* target_)
+KinematicArrive::KinematicArrive(Body* character_, const Vec3& pos)
 {
 	character = character_;
-	target = target_;
-	result = new KinematicSteeringOutput();
+	target = pos;
+	result = new SteeringOutput();
 }
-KinematicSteeringOutput* KinematicArrive::GetSteering()
+SteeringOutput* KinematicArrive::GetSteering()
 {
-	result->velocity = target->getPos() - character->getPos();
-	if(VMath::mag(result->velocity)<radius )
+
+	result->linear = target - character->getPos();
+	if(VMath::mag(result->linear)<radius )
 	{
-		return nullptr;
+		result->linear = Vec3(0.0f, 0.0f, 0.0f);
+		return NULL;
 	}
 
-	result->velocity /= timeToTarget;
+	result->linear /= timeToTarget;
 
-	if(VMath::mag(result->velocity) > max_Speed)
+	if(VMath::mag(result->linear) > max_Speed)
 	{
-		result->velocity = VMath::normalize(result->velocity);
-		result->velocity *= character->getMaxSpeed();
-		character->newOrientation(character->getOrientation(), result->velocity);
+		result->linear = VMath::normalize(result->linear);
+		result->linear *= character->getMaxSpeed();
+
 	}
 
-	//result->rotation = 0.0f;
 	return result;
 }
 float KinematicArrive::NewOrientation(float orientation_, MATH::Vec3& vel)

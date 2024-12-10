@@ -3,36 +3,40 @@
   "WorkspaceRootPath": "Z:\\Semester 5\\AI\\StudentTemplate\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{43AAAF36-7C39-45D1-91C7-AAE5F601F05F}|GAME307_StudentTemplate\\GAME307_StudentTemplate.vcxproj|Z:\\Semester 5\\AI\\StudentTemplate\\GAME307_StudentTemplate\\Scene2.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{43AAAF36-7C39-45D1-91C7-AAE5F601F05F}|GAME307_StudentTemplate\\GAME307_StudentTemplate.vcxproj|solutionrelative:GAME307_StudentTemplate\\Scene2.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{43AAAF36-7C39-45D1-91C7-AAE5F601F05F}|GAME307_StudentTemplate\\GAME307_StudentTemplate.vcxproj|Z:\\Semester 5\\AI\\StudentTemplate\\GAME307_StudentTemplate\\IsHealthLow.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{43AAAF36-7C39-45D1-91C7-AAE5F601F05F}|GAME307_StudentTemplate\\GAME307_StudentTemplate.vcxproj|solutionrelative:GAME307_StudentTemplate\\IsHealthLow.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{43AAAF36-7C39-45D1-91C7-AAE5F601F05F}|GAME307_StudentTemplate\\GAME307_StudentTemplate.vcxproj|Z:\\Semester 5\\AI\\StudentTemplate\\GAME307_StudentTemplate\\Graph.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{43AAAF36-7C39-45D1-91C7-AAE5F601F05F}|GAME307_StudentTemplate\\GAME307_StudentTemplate.vcxproj|solutionrelative:GAME307_StudentTemplate\\Graph.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{43AAAF36-7C39-45D1-91C7-AAE5F601F05F}|GAME307_StudentTemplate\\GAME307_StudentTemplate.vcxproj|Z:\\Semester 5\\AI\\StudentTemplate\\GAME307_StudentTemplate\\IsHealthLow.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{43AAAF36-7C39-45D1-91C7-AAE5F601F05F}|GAME307_StudentTemplate\\GAME307_StudentTemplate.vcxproj|solutionrelative:GAME307_StudentTemplate\\IsHealthLow.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{43AAAF36-7C39-45D1-91C7-AAE5F601F05F}|GAME307_StudentTemplate\\GAME307_StudentTemplate.vcxproj|Z:\\Semester 5\\AI\\StudentTemplate\\GAME307_StudentTemplate\\Graph.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{43AAAF36-7C39-45D1-91C7-AAE5F601F05F}|GAME307_StudentTemplate\\GAME307_StudentTemplate.vcxproj|solutionrelative:GAME307_StudentTemplate\\Graph.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{43AAAF36-7C39-45D1-91C7-AAE5F601F05F}|GAME307_StudentTemplate\\GAME307_StudentTemplate.vcxproj|Z:\\Semester 5\\AI\\StudentTemplate\\GAME307_StudentTemplate\\Character.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{43AAAF36-7C39-45D1-91C7-AAE5F601F05F}|GAME307_StudentTemplate\\GAME307_StudentTemplate.vcxproj|solutionrelative:GAME307_StudentTemplate\\Character.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{43AAAF36-7C39-45D1-91C7-AAE5F601F05F}|GAME307_StudentTemplate\\GAME307_StudentTemplate.vcxproj|Z:\\Semester 5\\AI\\StudentTemplate\\GAME307_StudentTemplate\\Scene1.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{43AAAF36-7C39-45D1-91C7-AAE5F601F05F}|GAME307_StudentTemplate\\GAME307_StudentTemplate.vcxproj|solutionrelative:GAME307_StudentTemplate\\Scene1.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{43AAAF36-7C39-45D1-91C7-AAE5F601F05F}|GAME307_StudentTemplate\\GAME307_StudentTemplate.vcxproj|Z:\\Semester 5\\AI\\StudentTemplate\\GAME307_StudentTemplate\\Character.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{43AAAF36-7C39-45D1-91C7-AAE5F601F05F}|GAME307_StudentTemplate\\GAME307_StudentTemplate.vcxproj|solutionrelative:GAME307_StudentTemplate\\Character.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{43AAAF36-7C39-45D1-91C7-AAE5F601F05F}|GAME307_StudentTemplate\\GAME307_StudentTemplate.vcxproj|Z:\\Semester 5\\AI\\StudentTemplate\\GAME307_StudentTemplate\\Actor.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{43AAAF36-7C39-45D1-91C7-AAE5F601F05F}|GAME307_StudentTemplate\\GAME307_StudentTemplate.vcxproj|solutionrelative:GAME307_StudentTemplate\\Actor.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{43AAAF36-7C39-45D1-91C7-AAE5F601F05F}|GAME307_StudentTemplate\\GAME307_StudentTemplate.vcxproj|Z:\\Semester 5\\AI\\StudentTemplate\\GAME307_StudentTemplate\\PlayerInRange.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{43AAAF36-7C39-45D1-91C7-AAE5F601F05F}|GAME307_StudentTemplate\\GAME307_StudentTemplate.vcxproj|solutionrelative:GAME307_StudentTemplate\\PlayerInRange.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{43AAAF36-7C39-45D1-91C7-AAE5F601F05F}|GAME307_StudentTemplate\\GAME307_StudentTemplate.vcxproj|Z:\\Semester 5\\AI\\StudentTemplate\\GAME307_StudentTemplate\\Actor.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{43AAAF36-7C39-45D1-91C7-AAE5F601F05F}|GAME307_StudentTemplate\\GAME307_StudentTemplate.vcxproj|solutionrelative:GAME307_StudentTemplate\\Actor.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{43AAAF36-7C39-45D1-91C7-AAE5F601F05F}|GAME307_StudentTemplate\\GAME307_StudentTemplate.vcxproj|Z:\\Semester 5\\AI\\StudentTemplate\\GAME307_StudentTemplate\\IsPlayerCloseToHome.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{43AAAF36-7C39-45D1-91C7-AAE5F601F05F}|GAME307_StudentTemplate\\GAME307_StudentTemplate.vcxproj|solutionrelative:GAME307_StudentTemplate\\IsPlayerCloseToHome.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{43AAAF36-7C39-45D1-91C7-AAE5F601F05F}|GAME307_StudentTemplate\\GAME307_StudentTemplate.vcxproj|Z:\\Semester 5\\AI\\StudentTemplate\\GAME307_StudentTemplate\\Tile.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{43AAAF36-7C39-45D1-91C7-AAE5F601F05F}|GAME307_StudentTemplate\\GAME307_StudentTemplate.vcxproj|solutionrelative:GAME307_StudentTemplate\\Tile.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{43AAAF36-7C39-45D1-91C7-AAE5F601F05F}|GAME307_StudentTemplate\\GAME307_StudentTemplate.vcxproj|Z:\\Semester 5\\AI\\StudentTemplate\\GAME307_StudentTemplate\\PlayerInRange.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{43AAAF36-7C39-45D1-91C7-AAE5F601F05F}|GAME307_StudentTemplate\\GAME307_StudentTemplate.vcxproj|solutionrelative:GAME307_StudentTemplate\\PlayerInRange.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{43AAAF36-7C39-45D1-91C7-AAE5F601F05F}|GAME307_StudentTemplate\\GAME307_StudentTemplate.vcxproj|Z:\\Semester 5\\AI\\StudentTemplate\\GAME307_StudentTemplate\\Scene2.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{43AAAF36-7C39-45D1-91C7-AAE5F601F05F}|GAME307_StudentTemplate\\GAME307_StudentTemplate.vcxproj|solutionrelative:GAME307_StudentTemplate\\Scene2.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{43AAAF36-7C39-45D1-91C7-AAE5F601F05F}|GAME307_StudentTemplate\\GAME307_StudentTemplate.vcxproj|Z:\\Semester 5\\AI\\StudentTemplate\\GAME307_StudentTemplate\\Decision.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{43AAAF36-7C39-45D1-91C7-AAE5F601F05F}|GAME307_StudentTemplate\\GAME307_StudentTemplate.vcxproj|solutionrelative:GAME307_StudentTemplate\\Decision.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{43AAAF36-7C39-45D1-91C7-AAE5F601F05F}|GAME307_StudentTemplate\\GAME307_StudentTemplate.vcxproj|Z:\\Semester 5\\AI\\StudentTemplate\\GAME307_StudentTemplate\\IsPlayerCloseToHome.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{43AAAF36-7C39-45D1-91C7-AAE5F601F05F}|GAME307_StudentTemplate\\GAME307_StudentTemplate.vcxproj|solutionrelative:GAME307_StudentTemplate\\IsPlayerCloseToHome.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -42,7 +46,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Bookmark",
@@ -50,106 +54,119 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Graph.h",
-              "DocumentMoniker": "Z:\\Semester 5\\AI\\StudentTemplate\\GAME307_StudentTemplate\\Graph.h",
-              "RelativeDocumentMoniker": "GAME307_StudentTemplate\\Graph.h",
-              "ToolTip": "Z:\\Semester 5\\AI\\StudentTemplate\\GAME307_StudentTemplate\\Graph.h",
-              "RelativeToolTip": "GAME307_StudentTemplate\\Graph.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAABCAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-11-07T23:44:09.801Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Graph.cpp",
-              "DocumentMoniker": "Z:\\Semester 5\\AI\\StudentTemplate\\GAME307_StudentTemplate\\Graph.cpp",
-              "RelativeDocumentMoniker": "GAME307_StudentTemplate\\Graph.cpp",
-              "ToolTip": "Z:\\Semester 5\\AI\\StudentTemplate\\GAME307_StudentTemplate\\Graph.cpp",
-              "RelativeToolTip": "GAME307_StudentTemplate\\Graph.cpp",
-              "ViewState": "AgIAADUAAAAAAAAAAAAAAOUAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-11-07T23:43:34.243Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Tile.cpp",
-              "DocumentMoniker": "Z:\\Semester 5\\AI\\StudentTemplate\\GAME307_StudentTemplate\\Tile.cpp",
-              "RelativeDocumentMoniker": "GAME307_StudentTemplate\\Tile.cpp",
-              "ToolTip": "Z:\\Semester 5\\AI\\StudentTemplate\\GAME307_StudentTemplate\\Tile.cpp",
-              "RelativeToolTip": "GAME307_StudentTemplate\\Tile.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAA6AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-11-07T07:40:09.514Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Scene1.h",
-              "DocumentMoniker": "Z:\\Semester 5\\AI\\StudentTemplate\\GAME307_StudentTemplate\\Scene1.h",
-              "RelativeDocumentMoniker": "GAME307_StudentTemplate\\Scene1.h",
-              "ToolTip": "Z:\\Semester 5\\AI\\StudentTemplate\\GAME307_StudentTemplate\\Scene1.h",
-              "RelativeToolTip": "GAME307_StudentTemplate\\Scene1.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAAPAAAAAAAAAA==",
+              "Title": "IsHealthLow.h",
+              "DocumentMoniker": "Z:\\Semester 5\\AI\\StudentTemplate\\GAME307_StudentTemplate\\IsHealthLow.h",
+              "RelativeDocumentMoniker": "GAME307_StudentTemplate\\IsHealthLow.h",
+              "ToolTip": "Z:\\Semester 5\\AI\\StudentTemplate\\GAME307_StudentTemplate\\IsHealthLow.h",
+              "RelativeToolTip": "GAME307_StudentTemplate\\IsHealthLow.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-11-07T07:16:09.293Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Actor.cpp",
-              "DocumentMoniker": "Z:\\Semester 5\\AI\\StudentTemplate\\GAME307_StudentTemplate\\Actor.cpp",
-              "RelativeDocumentMoniker": "GAME307_StudentTemplate\\Actor.cpp",
-              "ToolTip": "Z:\\Semester 5\\AI\\StudentTemplate\\GAME307_StudentTemplate\\Actor.cpp",
-              "RelativeToolTip": "GAME307_StudentTemplate\\Actor.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAvAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-11-07T07:11:56.731Z",
+              "WhenOpened": "2024-12-10T03:28:35.205Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "Actor.h",
-              "DocumentMoniker": "Z:\\Semester 5\\AI\\StudentTemplate\\GAME307_StudentTemplate\\Actor.h",
-              "RelativeDocumentMoniker": "GAME307_StudentTemplate\\Actor.h",
-              "ToolTip": "Z:\\Semester 5\\AI\\StudentTemplate\\GAME307_StudentTemplate\\Actor.h",
-              "RelativeToolTip": "GAME307_StudentTemplate\\Actor.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAADAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-11-07T07:09:11.523Z",
+              "Title": "IsPlayerCloseToHome.cpp",
+              "DocumentMoniker": "Z:\\Semester 5\\AI\\StudentTemplate\\GAME307_StudentTemplate\\IsPlayerCloseToHome.cpp",
+              "RelativeDocumentMoniker": "GAME307_StudentTemplate\\IsPlayerCloseToHome.cpp",
+              "ToolTip": "Z:\\Semester 5\\AI\\StudentTemplate\\GAME307_StudentTemplate\\IsPlayerCloseToHome.cpp",
+              "RelativeToolTip": "GAME307_StudentTemplate\\IsPlayerCloseToHome.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-12-10T03:21:37.984Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Scene2.cpp",
-              "DocumentMoniker": "Z:\\Semester 5\\AI\\StudentTemplate\\GAME307_StudentTemplate\\Scene2.cpp",
-              "RelativeDocumentMoniker": "GAME307_StudentTemplate\\Scene2.cpp",
-              "ToolTip": "Z:\\Semester 5\\AI\\StudentTemplate\\GAME307_StudentTemplate\\Scene2.cpp*",
-              "RelativeToolTip": "GAME307_StudentTemplate\\Scene2.cpp*",
-              "ViewState": "AgIAAK0AAAAAAAAAAAAcwMUAAAAzAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-11-05T22:58:11.639Z",
+              "DocumentIndex": 8,
+              "Title": "IsPlayerCloseToHome.h",
+              "DocumentMoniker": "Z:\\Semester 5\\AI\\StudentTemplate\\GAME307_StudentTemplate\\IsPlayerCloseToHome.h",
+              "RelativeDocumentMoniker": "GAME307_StudentTemplate\\IsPlayerCloseToHome.h",
+              "ToolTip": "Z:\\Semester 5\\AI\\StudentTemplate\\GAME307_StudentTemplate\\IsPlayerCloseToHome.h",
+              "RelativeToolTip": "GAME307_StudentTemplate\\IsPlayerCloseToHome.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-12-10T03:21:34.791Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 7,
-              "Title": "Scene2.h",
-              "DocumentMoniker": "Z:\\Semester 5\\AI\\StudentTemplate\\GAME307_StudentTemplate\\Scene2.h",
-              "RelativeDocumentMoniker": "GAME307_StudentTemplate\\Scene2.h",
-              "ToolTip": "Z:\\Semester 5\\AI\\StudentTemplate\\GAME307_StudentTemplate\\Scene2.h",
-              "RelativeToolTip": "GAME307_StudentTemplate\\Scene2.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAcAAAAAAAAAA==",
+              "Title": "Decision.h",
+              "DocumentMoniker": "Z:\\Semester 5\\AI\\StudentTemplate\\GAME307_StudentTemplate\\Decision.h",
+              "RelativeDocumentMoniker": "GAME307_StudentTemplate\\Decision.h",
+              "ToolTip": "Z:\\Semester 5\\AI\\StudentTemplate\\GAME307_StudentTemplate\\Decision.h",
+              "RelativeToolTip": "GAME307_StudentTemplate\\Decision.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-11-05T22:55:40.936Z",
+              "WhenOpened": "2024-12-10T03:02:08.402Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "IsHealthLow.cpp",
+              "DocumentMoniker": "Z:\\Semester 5\\AI\\StudentTemplate\\GAME307_StudentTemplate\\IsHealthLow.cpp",
+              "RelativeDocumentMoniker": "GAME307_StudentTemplate\\IsHealthLow.cpp",
+              "ToolTip": "Z:\\Semester 5\\AI\\StudentTemplate\\GAME307_StudentTemplate\\IsHealthLow.cpp*",
+              "RelativeToolTip": "GAME307_StudentTemplate\\IsHealthLow.cpp*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-12-10T02:19:47.257Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "PlayerInRange.cpp",
+              "DocumentMoniker": "Z:\\Semester 5\\AI\\StudentTemplate\\GAME307_StudentTemplate\\PlayerInRange.cpp",
+              "RelativeDocumentMoniker": "GAME307_StudentTemplate\\PlayerInRange.cpp",
+              "ToolTip": "Z:\\Semester 5\\AI\\StudentTemplate\\GAME307_StudentTemplate\\PlayerInRange.cpp",
+              "RelativeToolTip": "GAME307_StudentTemplate\\PlayerInRange.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAABSAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-12-10T02:15:09.58Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "PlayerInRange.h",
+              "DocumentMoniker": "Z:\\Semester 5\\AI\\StudentTemplate\\GAME307_StudentTemplate\\PlayerInRange.h",
+              "RelativeDocumentMoniker": "GAME307_StudentTemplate\\PlayerInRange.h",
+              "ToolTip": "Z:\\Semester 5\\AI\\StudentTemplate\\GAME307_StudentTemplate\\PlayerInRange.h",
+              "RelativeToolTip": "GAME307_StudentTemplate\\PlayerInRange.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-12-09T23:48:43.326Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Character.h",
+              "DocumentMoniker": "Z:\\Semester 5\\AI\\StudentTemplate\\GAME307_StudentTemplate\\Character.h",
+              "RelativeDocumentMoniker": "GAME307_StudentTemplate\\Character.h",
+              "ToolTip": "Z:\\Semester 5\\AI\\StudentTemplate\\GAME307_StudentTemplate\\Character.h",
+              "RelativeToolTip": "GAME307_StudentTemplate\\Character.h",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAiwCMAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-12-03T21:24:09.02Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Character.cpp",
+              "DocumentMoniker": "Z:\\Semester 5\\AI\\StudentTemplate\\GAME307_StudentTemplate\\Character.cpp",
+              "RelativeDocumentMoniker": "GAME307_StudentTemplate\\Character.cpp",
+              "ToolTip": "Z:\\Semester 5\\AI\\StudentTemplate\\GAME307_StudentTemplate\\Character.cpp*",
+              "RelativeToolTip": "GAME307_StudentTemplate\\Character.cpp*",
+              "ViewState": "AgIAAPcAAAAAAAAAAAAiwBUBAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-12-03T21:24:08.398Z",
               "EditorCaption": ""
             }
           ]

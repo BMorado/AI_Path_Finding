@@ -9,10 +9,10 @@ private:
 	Body* character;
 	Body* target;
 	float max_Speed;
-	KinematicSteeringOutput* result;
+	SteeringOutput* result;
 public:
 	KinematicSeek(Body* character,Body* target);
-	KinematicSteeringOutput* GetSteering();
+	SteeringOutput* GetSteering();
 	float newOrientation(float orientation_, Vec3& vel);
 };
 

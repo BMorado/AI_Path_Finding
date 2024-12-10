@@ -1,5 +1,26 @@
 #include "Character.h"
 
+#include <unordered_map>
+
+#include "Action.h"
+#include "KinematicSeek.h"
+#include "KinematicFlee.h"
+#include "KinematicWander.h"
+#include  "KinematicArrive.h"
+
+#include "PlayerInRange.h"
+#include "Condition.h"
+#include "IsHealthLow.h"
+#include "IsPlayerCloseToHome.h"
+#include "StateMachine.h"
+#include "tinyxml2.h"
+using namespace tinyxml2;
+
+bool Character::GetHasEaten()
+{
+	return hasEaten;
+}
+
 bool Character::OnCreate(Scene* scene_)
 {
 	scene = scene_;
@@ -33,6 +54,8 @@ bool Character::OnCreate(Scene* scene_)
 		return false;
 	}
 
+
+	
 	return true;
 }
 
@@ -74,22 +97,97 @@ void Character::Update(float deltaTime)
 	// create a new overall steering output
 	SteeringOutput* steering;
 	steering = NULL;
+	if(decisionTree)
+	{
+		DecisionTreeNode* action = decisionTree->MakeDecision();
 
-	// set the target for steering; target is used by the steerTo... functions
-	// (often the target is the Player)
+		switch (dynamic_cast<Action*>(action)->GetValue())
+		{
+		case ACTION_SET::SEEK:
+		{
+			KinematicSeek* temp = new KinematicSeek(this->getStaticBody(), scene->game->getPlayer());
+			steering = temp->GetSteering();
+		}
 
-	// using the target, calculate and set values in the overall steering output
+		break;
+		case ACTION_SET::FLEE:
+		{
+			KinematicFlee* flee = new KinematicFlee(this->getStaticBody(), scene->game->getPlayer());
+			steering = flee->getSteering();
+		}
 
-	// apply the steering to the equations of motion
+		break;
+		case ACTION_SET::ARRIVE:
+			break;
+		case ACTION_SET::DO_NOTHING:
+			KinematicArrive* arrive = new KinematicArrive(this->getStaticBody(), homePos);
+			steering = arrive->GetSteering();
+			break;
+		}
+	}
+	if(stateMachine)
+	{
+		stateMachine->Update(this);
+		switch (stateMachine->GetCurrentStateName())
+		{
+		case STATE::DO_NOTHING:
+			std::cout << "State Do Nothing \n";
+			break;
+		case STATE::FLEE:
+			{
+				KinematicFlee* flee = new KinematicFlee(this->getStaticBody(), scene->game->getPlayer());
+				steering = flee->getSteering();
+				std::cout << "State Fleeing \n";
+			}
+			break;
+		case STATE::SEEK:
+			{
+			KinematicSeek* temp = new KinematicSeek(this->getStaticBody(), scene->game->getPlayer());
+			steering = temp->GetSteering();
+			std::cout << "State Seeking \n";
+			}
+			break;
+		case STATE::PATROL:
+			KinematicArrive* arrive = new KinematicArrive(this->getStaticBody(), homePos);
+			steering = arrive->GetSteering();
+			break;
+		}
+	}
 	body->Update(deltaTime, steering);
 
-	// clean up memory
-	// (delete only those objects created in this function)
 }
 
 void Character::HandleEvents(const SDL_Event& event)
 {
-	// handle events here, if needed
+
+	// if key is released, stop applying movement
+
+	if (event.type == SDL_KEYUP && event.key.repeat == 0)
+	{
+		switch (event.key.keysym.scancode)
+		{
+			// This section demonstrates using velocity for player movement
+			//
+			// Need to always normalize velocity, otherwise if player
+			// releases one of two pressed keys, then speed remains at sqrt(0.5) of maxSpeed
+		case SDL_SCANCODE_LEFT:
+			
+			break;
+		case SDL_SCANCODE_RIGHT:
+			
+			break;
+		case SDL_SCANCODE_DOWN:
+			SubtractHealth(1);
+			break;
+		case SDL_SCANCODE_UP:
+			AddHealth(1);
+			break;
+
+		
+		default:
+			break;
+		}
+	}
 }
 
 void Character::render(float scale) const
@@ -117,3 +215,96 @@ void Character::render(float scale) const
 	SDL_RenderCopyEx(renderer, body->getTexture(), nullptr, &square,
 		orientation, nullptr, SDL_FLIP_NONE);
 }
+
+void Character::SubtractHealth(int health_)
+{
+	if (health > 0)
+	{
+		 health -= health_;
+		 std::cout << health << '\n';
+	}
+}
+
+void Character::AddHealth(int health_)
+{
+	health += health_;
+	std::cout << health << '\n';
+}
+
+Vec3 Character::GetPlayerPos() 
+{
+	return scene->game->getPlayer()->getPos();
+}
+
+void Character::MoveToHome(float deltaTime)
+{
+	Vec3 direction = homePos - getStaticBody()->getPos();
+	float distance = VMath::mag(direction);
+	if (distance < 0.1f) {  // 0.1 is an arbitrary small distance threshold
+		body->setPos(homePos);  // Directly set the position to the target
+		return;
+	}
+	// Normalize the direction vector to get the unit vector
+	direction = VMath::normalize(direction);
+
+	// Move the character towards the target at the specified speed
+	Vec3 movement =  (getStaticBody()->getMaxSpeed() * deltaTime)* direction;
+
+	// Update the position of the character
+	body->setPos(body->getPos() + movement);
+}
+
+bool Character::ReadDecisionTreeFile( std::string file_)
+{
+	
+	if(file_ == "Near Player")
+	{
+
+		DecisionTreeNode* chasePlayer = new Action(ACTION_SET::SEEK);     // Chase player
+		DecisionTreeNode* flee = new Action(ACTION_SET::FLEE);           // Flee
+		DecisionTreeNode* patrol = new Action(ACTION_SET::DO_NOTHING);   // Patrol
+		DecisionTreeNode* stayIdle = new Action(ACTION_SET::DO_NOTHING); // Do nothing
+
+		//decisionTree = new IsHealthLow(flee, chasePlayer, this);
+
+		decisionTree = new IsPlayerCloseToHome(chasePlayer, stayIdle, this);
+
+
+
+		decisionTree = new PlayerInRange(chasePlayer, stayIdle, this);
+
+		decisionTree = new IsHealthLow(flee, chasePlayer, this);
+
+	
+		return true;
+	}
+	return false;
+}
+
+bool Character::ReadStateMachineFromFile(std::string file_)
+{
+		stateMachine = new StateMachine();
+		if (!stateMachine)
+		{
+			return false;
+		}
+		State* chasePlayer = new State(STATE::SEEK);
+		State* patrol = new State(STATE::PATROL);
+		State* flee = new State(STATE::FLEE);
+
+		flee->AddTransition(new Transition(new ConditionInRange(), chasePlayer));
+		flee->AddTransition(new Transition(new ConditionOutOfRange(), patrol));
+
+		chasePlayer->AddTransition(new Transition(new ConditionFlee(), flee));
+		chasePlayer->AddTransition(new Transition(new ConditionOutOfRange(), patrol));
+	
+		patrol->AddTransition(new Transition(new ConditionInRange(), chasePlayer));
+		patrol->AddTransition(new Transition(new ConditionFlee(), flee));
+
+		stateMachine->SetInitialState(chasePlayer);
+	
+	
+	return true;
+}
+
+

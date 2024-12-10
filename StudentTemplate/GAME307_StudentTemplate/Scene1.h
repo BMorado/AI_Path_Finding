@@ -19,9 +19,10 @@ private:
 	SDL_Renderer* renderer;
 	Matrix4 projectionMatrix;
     Matrix4     inverseProjection;
-	StaticBody* NPC;
 	Character* track;
 	Character* blinky;
+	Character* inky;
+	Character* home;
 
 public:
 	Scene1(SDL_Window* sdlWindow, GameManager* game_);

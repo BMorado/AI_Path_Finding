@@ -98,3 +98,11 @@ void Body::setPos( Vec3 pos_ )
 {
     pos = pos_;
 }
+float Body::newOrientation(float orientation_, Vec3& vel)
+{
+    if (VMath::mag(vel) > 0)
+    {
+        return (atan2(vel.x, vel.y));
+    }
+    return orientation;
+}

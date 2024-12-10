@@ -12,7 +12,7 @@ void KinematicBody::Update( float deltaTime, SteeringOutput *steering )
     // Adjust velocity and rotation according to steering input
     if ( steering )
     {
-        accel = steering->linear;
+        accel = steering->linear ;
         angular = steering->angular ;
     }
 

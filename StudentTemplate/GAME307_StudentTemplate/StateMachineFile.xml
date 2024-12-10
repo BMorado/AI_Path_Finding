@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<StateMachine>
+	<InitialState>SEEK</InitialState>
+	<States>
+		<State name="SEEK">
+			<Transition condition="OutOfRange" targetState="DO_NOTHING" />
+		</State>
+		<State name="DO_NOTHING">
+			<Transition condition="InRange" targetState="SEEK" />
+		</State>
+	</States>
+</StateMachine>

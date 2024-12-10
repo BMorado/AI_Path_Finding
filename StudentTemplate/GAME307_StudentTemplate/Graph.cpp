@@ -80,21 +80,16 @@ std::vector<Node*> Graph::DijkstraFindPath(Node* startNode, Node* goalNode)
     std::vector<Node*> result;
     result.clear();
     Node* currentNode = startNode;
-
     // Frontier priority queue to explore nodes with minimum cost first
     std::priority_queue<NodeAndPriority, std::deque<NodeAndPriority>, NodeAndPriority> frontier;
     frontier.push(NodeAndPriority{ currentNode, 0.0f });
-
     // Track the path using came_from (initialize with -1 for no predecessor)
     std::vector<int> came_from(numNodes(), -1);
-
     // Cost so far to reach each node
     std::map<int, float> cost_so_far;
     int start = startNode->getLable();
     int goal = goalNode->getLable();
     cost_so_far[start] = 0.0f;
-
-
     while (!frontier.empty())
     {
         currentNode = frontier.top().node;
@@ -118,14 +113,12 @@ std::vector<Node*> Graph::DijkstraFindPath(Node* startNode, Node* goalNode)
             }
         }
     }
-
-  
     int current = goal;
     while (current != start)
     {
         if (current == -1)  
         {
-            std::cerr << "Error: No path found from start to goal." << std::endl;
+            std::cerr << "Error: No path found from start to goal.\n" ;
             result.clear();
             return result;
         }
@@ -136,13 +129,11 @@ std::vector<Node*> Graph::DijkstraFindPath(Node* startNode, Node* goalNode)
     result.push_back(node.at(start));  
 
     std::reverse(result.begin(), result.end());  
-
     // Print path (for debugging)
     for (auto value : result)
     {
         std::cout << value->getLable() << '\n';
     }
-
     return result;
 }
 
@@ -167,21 +158,14 @@ std::vector<Node*> Graph::AStarFindPath(Node* startNode, Node* goalNode)
     std::vector<Node*> result;
     result.clear();
     Node* currentNode = startNode;
-
-   
     std::priority_queue<NodeAndPriority, std::deque<NodeAndPriority>, NodeAndPriority> frontier;
     frontier.push(NodeAndPriority{ currentNode, 0.0f });
-
-   
     std::vector<int> came_from(numNodes(), -1);
-
     // Cost to reach each node from start
     std::map<int, float> cost_so_far;
     int start = startNode->getLable();
     int goal = goalNode->getLable();
     cost_so_far[start] = 0.0f;
-
-
     while (!frontier.empty()) {
         currentNode = frontier.top().node;
         frontier.pop();
@@ -190,21 +174,18 @@ std::vector<Node*> Graph::AStarFindPath(Node* startNode, Node* goalNode)
         if (currentNode->getLable() == goal) {
             break;
         }
-
         for (Node* next : Neighbours(currentNode)) {
   
             float new_cost = cost_so_far[currentNode->getLable()] + cost[currentNode->getLable()][next->getLable()];
 
             if (cost_so_far.find(next->getLable()) == cost_so_far.end() || new_cost < cost_so_far[next->getLable()]) {
-                //cost_so_far[next->getLable()] = new_cost;
-                float priority = new_cost + heuristic(goalNode, next);  // A* uses cost + heuristic
+                cost_so_far[next->getLable()] = new_cost;
+                float priority = new_cost+heuristic(goalNode, next);  // A* uses cost + heuristic
                 frontier.push(NodeAndPriority{ next, priority });
                 came_from[next->getLable()] = currentNode->getLable();
             }
         }
     }
-
-
     int current = goal;
     while (current != start) {
         if (current == -1) {  // If path not found
@@ -217,14 +198,10 @@ std::vector<Node*> Graph::AStarFindPath(Node* startNode, Node* goalNode)
         current = came_from[current];
     }
     result.push_back(node.at(start));  
-
     std::reverse(result.begin(), result.end());  
-
- 
     for (auto value : result) {
         std::cout << value->getLable() << '\n';
     }
-
     return result;
 }
 

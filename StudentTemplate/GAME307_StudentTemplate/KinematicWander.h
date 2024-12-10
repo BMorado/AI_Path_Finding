@@ -3,15 +3,18 @@
 #include "Body.h"
 #include <random>
 #include <stdlib.h> 
+
+#include "SteeringOutput.h"
+
 class KinematicWander
 {
 private:
-	StaticBody* character;
+	Body* character;
 	Body* target;
-	KinematicSteeringOutput* result;
+	SteeringOutput* result;
 public:
-	KinematicWander(StaticBody* character_, Body* target_);
-	KinematicSteeringOutput* GetSteering();
+	KinematicWander(Body* character_, Body* target_);
+	SteeringOutput* GetSteering();
 	Vec3 OrientationToVec3();
 	float RandomBinomial();
 };

@@ -2,20 +2,21 @@
 #include "Body.h"
 #include "KinematicSteeringOutput.h"
 #include "StaticBody.h"
+#include "SteeringOutput.h"
 
 class KinematicArrive
 {
-	StaticBody* character;
-	Body* target;
+	Body* character;
+	Vec3 target;
 	float max_Speed;
 	// satisfaction radius 
-	float radius = 0.01f;
+	float radius = 3.0f;
 	// Time to get to target constant
 	float timeToTarget = 0.01f;
-	KinematicSteeringOutput* result;
+	SteeringOutput* result;
 public:
-	KinematicArrive(StaticBody* character_, Body* target_);
-	KinematicSteeringOutput* GetSteering();
+	KinematicArrive(Body* character_,const Vec3& pos);
+	SteeringOutput* GetSteering();
 	float NewOrientation(float orientation_, MATH::Vec3& vel);
 };
 

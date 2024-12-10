@@ -4,9 +4,6 @@
     <ClCompile Include="Body.cpp">
       <Filter>other</Filter>
     </ClCompile>
-    <ClCompile Include="Character.cpp">
-      <Filter>other</Filter>
-    </ClCompile>
     <ClCompile Include="GameManager.cpp">
       <Filter>other</Filter>
     </ClCompile>
@@ -14,9 +11,6 @@
       <Filter>other</Filter>
     </ClCompile>
     <ClCompile Include="PlayerBody.cpp">
-      <Filter>other</Filter>
-    </ClCompile>
-    <ClCompile Include="Scene1.cpp">
       <Filter>other</Filter>
     </ClCompile>
     <ClCompile Include="Timer.cpp">
@@ -52,7 +46,6 @@
     <ClCompile Include="SteeringOutput.cpp">
       <Filter>Steering\Output</Filter>
     </ClCompile>
-    <ClCompile Include="Scene2.cpp" />
     <ClCompile Include="Node.cpp">
       <Filter>Path Finding</Filter>
     </ClCompile>
@@ -75,24 +68,48 @@
       <Filter>other</Filter>
     </ClCompile>
     <ClCompile Include="Actor.cpp" />
+    <ClCompile Include="DecisionTreeNode.cpp">
+      <Filter>DT</Filter>
+    </ClCompile>
+    <ClCompile Include="Action.cpp">
+      <Filter>DT</Filter>
+    </ClCompile>
+    <ClCompile Include="Decision.cpp">
+      <Filter>DT</Filter>
+    </ClCompile>
+    <ClCompile Include="FloatDecision.cpp" />
+    <ClCompile Include="Scene2.cpp">
+      <Filter>Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene1.cpp">
+      <Filter>Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="StateMachine.cpp">
+      <Filter>State Machine</Filter>
+    </ClCompile>
+    <ClCompile Include="tinyxml2.cpp" />
+    <ClCompile Include="PlayerInRange.cpp">
+      <Filter>DT</Filter>
+    </ClCompile>
+    <ClCompile Include="Condition.cpp">
+      <Filter>State Machine</Filter>
+    </ClCompile>
+    <ClCompile Include="IsHealthLow.cpp">
+      <Filter>DT</Filter>
+    </ClCompile>
+    <ClCompile Include="IsPlayerCloseToHome.cpp" />
+    <ClCompile Include="Character.cpp">
+      <Filter>Characters</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Body.h">
-      <Filter>other</Filter>
-    </ClInclude>
-    <ClInclude Include="Character.h">
       <Filter>other</Filter>
     </ClInclude>
     <ClInclude Include="GameManager.h">
       <Filter>other</Filter>
     </ClInclude>
     <ClInclude Include="PlayerBody.h">
-      <Filter>other</Filter>
-    </ClInclude>
-    <ClInclude Include="Scene.h">
-      <Filter>other</Filter>
-    </ClInclude>
-    <ClInclude Include="Scene1.h">
       <Filter>other</Filter>
     </ClInclude>
     <ClInclude Include="Timer.h">
@@ -128,7 +145,6 @@
     <ClInclude Include="SteeringOutput.h">
       <Filter>Steering\Output</Filter>
     </ClInclude>
-    <ClInclude Include="Scene2.h" />
     <ClInclude Include="Node.h">
       <Filter>Path Finding</Filter>
     </ClInclude>
@@ -151,6 +167,42 @@
       <Filter>other</Filter>
     </ClInclude>
     <ClInclude Include="Actor.h" />
+    <ClInclude Include="DecisionTreeNode.h">
+      <Filter>DT</Filter>
+    </ClInclude>
+    <ClInclude Include="Action.h">
+      <Filter>DT</Filter>
+    </ClInclude>
+    <ClInclude Include="Decision.h">
+      <Filter>DT</Filter>
+    </ClInclude>
+    <ClInclude Include="FloatDecision.h" />
+    <ClInclude Include="Scene2.h">
+      <Filter>Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene1.h">
+      <Filter>Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene.h">
+      <Filter>Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="StateMachine.h">
+      <Filter>State Machine</Filter>
+    </ClInclude>
+    <ClInclude Include="tinyxml2.h" />
+    <ClInclude Include="PlayerInRange.h">
+      <Filter>DT</Filter>
+    </ClInclude>
+    <ClInclude Include="Condition.h">
+      <Filter>State Machine</Filter>
+    </ClInclude>
+    <ClInclude Include="IsHealthLow.h">
+      <Filter>DT</Filter>
+    </ClInclude>
+    <ClInclude Include="IsPlayerCloseToHome.h" />
+    <ClInclude Include="Character.h">
+      <Filter>Characters</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <Filter Include="Steering">
@@ -186,10 +238,25 @@
     <Filter Include="Path Finding">
       <UniqueIdentifier>{1e554efe-c21a-42aa-8fc7-00549f8893a2}</UniqueIdentifier>
     </Filter>
+    <Filter Include="DT">
+      <UniqueIdentifier>{7b8ce1c6-f7c7-4d16-b5a7-baeda66bb953}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scenes">
+      <UniqueIdentifier>{a9b189a3-623c-492d-b310-f43b8687820f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="State Machine">
+      <UniqueIdentifier>{e3c14e95-b434-43ca-949b-66b203d8bac0}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ResourceCompile Include="GAME307_StudentTemplate.rc">
       <Filter>other</Filter>
     </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Xml Include="AiXML.xml">
+      <Filter>DT</Filter>
+    </Xml>
+    <Xml Include="StateMachineFile.xml" />
   </ItemGroup>
 </Project>

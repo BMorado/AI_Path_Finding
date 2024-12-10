@@ -4,20 +4,20 @@ KinematicSeek::KinematicSeek(Body* character_, Body* target_)
 {
 	character = character_;
 	target = target_;
-	result = new KinematicSteeringOutput();
+	result = new SteeringOutput();
 }
 
-KinematicSteeringOutput* KinematicSeek::GetSteering()
+SteeringOutput* KinematicSeek::GetSteering()
 {
 
-	result->velocity = target->getPos() - character->getPos();
+	result->linear = target->getPos() - character->getPos();
 
-	result->velocity = VMath::normalize(result->velocity)*character->getMaxSpeed();
-	result->rotation = 0.0f;
+	result->linear = VMath::normalize(result->linear)*character->getMaxSpeed();
+	result->angular = 0.0f;
 	//result->velocity *= max_Speed;
 
 	//result->rotation = newOrientation(character->getOrientation(), result->velocity);
-	result->velocity.print();
+
 	
 	return result;
 }

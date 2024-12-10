@@ -2,25 +2,26 @@
 
 #include <VMath.h>
 
+#include "SteeringOutput.h"
+
 
 KinematicFlee::KinematicFlee(Body* character_, Body* target_)
 {
 	character = character_;
 	target = target_;
-	result = new KinematicSteeringOutput();
+	result = new SteeringOutput();
 }
 
-KinematicSteeringOutput* KinematicFlee::getSteering()
+SteeringOutput* KinematicFlee::getSteering()
 {
 
-	result->velocity = character->getPos()-target->getPos() ;
+	result->linear = character->getPos()-target->getPos() ;
 
-	result->velocity = MATH::VMath::normalize(result->velocity) * character->getMaxSpeed();
-	result->rotation = 0.0f;
+	result->linear = MATH::VMath::normalize(result->linear) * character->getMaxSpeed();
+	result->angular = 0.0f;
 	//result->velocity *= max_Speed;
 
 	//result->rotation = newOrientation(character->getOrientation(), result->velocity);
-	result->velocity.print();
 
 	return result;
 }

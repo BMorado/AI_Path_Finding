@@ -29,9 +29,7 @@ bool Scene2::OnCreate() {
 	SDL_Texture* texture;
 
 
-	//Create Tiles
-	CreateTiles();
-
+	
 	SDL_Surface* imgNPC = IMG_Load("Blinky.png");
 	SDL_Texture* textureNPC = SDL_CreateTextureFromSurface(renderer, imgNPC);
 	actor = new Actor(Vec3(),0.1f,0.0f,this, textureNPC);
@@ -81,6 +79,11 @@ bool Scene2::OnCreate() {
 	//{
 	//	std::cout << value->getLable() << '\n';
 	//}
+	//Create Tiles
+	CreateTiles();
+	int j = 336 / xAxis;
+	int i = 336 % static_cast<int>(xAxis);
+	tileArray[i][j]->SetRGBA(255, 255, 0, 255);
 	return true;
 }
 
@@ -195,7 +198,7 @@ void Scene2::HandleEvents(const SDL_Event& event)
 
 				std::cout << "Generating New Path"<< '\n';
 				GenerateNewPath();
-				std::vector<Node*> path = graph->AStarFindPath(sceneNodes[0], sceneNodes[336]);
+				std::vector<Node*> path = graph->DijkstraFindPath(sceneNodes[0], sceneNodes[336]);
 				
 				for (Node* node : path)
 				{
@@ -223,8 +226,8 @@ void PrintConnections(int from,int to)
 void Scene2::GenerateNewPath()
 {
 	
-	for (int j = 0; j < yAxis; ++j) {
-		for (int i = 0; i < xAxis; ++i) {
+	for (int i = 0; i < xAxis; ++i) {
+		for (int j = 0; j < yAxis; ++j) {
 			if (tileArray[i][j]->valid) {
 				int currentNodeIndex = i + (25 * j);
 
