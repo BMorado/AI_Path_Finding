@@ -123,6 +123,9 @@ void Character::Update(float deltaTime)
 			KinematicArrive* arrive = new KinematicArrive(this->getStaticBody(), homePos);
 			steering = arrive->GetSteering();
 			break;
+		case ACTION_SET::TAUNT:
+			std::cout << "Come here and try and get me \n";
+			break;
 		}
 	}
 	if(stateMachine)
@@ -263,17 +266,17 @@ bool Character::ReadDecisionTreeFile( std::string file_)
 		DecisionTreeNode* chasePlayer = new Action(ACTION_SET::SEEK);     // Chase player
 		DecisionTreeNode* flee = new Action(ACTION_SET::FLEE);           // Flee
 		DecisionTreeNode* patrol = new Action(ACTION_SET::DO_NOTHING);   // Patrol
-		DecisionTreeNode* stayIdle = new Action(ACTION_SET::DO_NOTHING); // Do nothing
-
-		//decisionTree = new IsHealthLow(flee, chasePlayer, this);
-
-		decisionTree = new IsPlayerCloseToHome(chasePlayer, stayIdle, this);
-
-
-
-		decisionTree = new PlayerInRange(chasePlayer, stayIdle, this);
+		DecisionTreeNode* Taunt = new Action(ACTION_SET::TAUNT); // Do nothing
 
 		decisionTree = new IsHealthLow(flee, chasePlayer, this);
+		decisionTree = new PlayerInRange(chasePlayer, patrol, this);
+		decisionTree = new IsPlayerCloseToHome(chasePlayer, patrol, this);
+		decisionTree = new PlayerInRange(chasePlayer, Taunt, this);
+		decisionTree = new IsHealthLow(flee, chasePlayer, this);
+
+		
+
+		
 
 	
 		return true;

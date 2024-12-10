@@ -6,7 +6,8 @@ enum class ACTION_SET
 	DO_NOTHING,
 	SEEK,
 	FLEE,
-	ARRIVE
+	ARRIVE,
+	TAUNT
 };
 class Action:
 	public DecisionTreeNode

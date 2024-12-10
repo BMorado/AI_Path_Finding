@@ -1,41 +1,45 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "Z:\\Semester 5\\AI\\StudentTemplate\\",
+  "WorkspaceRootPath": "R:\\AI\\AI_Path_Finding\\StudentTemplate\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{43AAAF36-7C39-45D1-91C7-AAE5F601F05F}|GAME307_StudentTemplate\\GAME307_StudentTemplate.vcxproj|Z:\\Semester 5\\AI\\StudentTemplate\\GAME307_StudentTemplate\\Character.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{43AAAF36-7C39-45D1-91C7-AAE5F601F05F}|GAME307_StudentTemplate\\GAME307_StudentTemplate.vcxproj|R:\\AI\\AI_Path_Finding\\StudentTemplate\\GAME307_StudentTemplate\\Action.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{43AAAF36-7C39-45D1-91C7-AAE5F601F05F}|GAME307_StudentTemplate\\GAME307_StudentTemplate.vcxproj|solutionrelative:GAME307_StudentTemplate\\Action.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{43AAAF36-7C39-45D1-91C7-AAE5F601F05F}|GAME307_StudentTemplate\\GAME307_StudentTemplate.vcxproj|R:\\AI\\AI_Path_Finding\\StudentTemplate\\GAME307_StudentTemplate\\Character.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{43AAAF36-7C39-45D1-91C7-AAE5F601F05F}|GAME307_StudentTemplate\\GAME307_StudentTemplate.vcxproj|solutionrelative:GAME307_StudentTemplate\\Character.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{43AAAF36-7C39-45D1-91C7-AAE5F601F05F}|GAME307_StudentTemplate\\GAME307_StudentTemplate.vcxproj|Z:\\Semester 5\\AI\\StudentTemplate\\GAME307_StudentTemplate\\Character.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{43AAAF36-7C39-45D1-91C7-AAE5F601F05F}|GAME307_StudentTemplate\\GAME307_StudentTemplate.vcxproj|R:\\AI\\AI_Path_Finding\\StudentTemplate\\GAME307_StudentTemplate\\Character.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{43AAAF36-7C39-45D1-91C7-AAE5F601F05F}|GAME307_StudentTemplate\\GAME307_StudentTemplate.vcxproj|solutionrelative:GAME307_StudentTemplate\\Character.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{43AAAF36-7C39-45D1-91C7-AAE5F601F05F}|GAME307_StudentTemplate\\GAME307_StudentTemplate.vcxproj|Z:\\Semester 5\\AI\\StudentTemplate\\GAME307_StudentTemplate\\PlayerInRange.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{43AAAF36-7C39-45D1-91C7-AAE5F601F05F}|GAME307_StudentTemplate\\GAME307_StudentTemplate.vcxproj|R:\\AI\\AI_Path_Finding\\StudentTemplate\\GAME307_StudentTemplate\\PlayerInRange.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{43AAAF36-7C39-45D1-91C7-AAE5F601F05F}|GAME307_StudentTemplate\\GAME307_StudentTemplate.vcxproj|solutionrelative:GAME307_StudentTemplate\\PlayerInRange.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{43AAAF36-7C39-45D1-91C7-AAE5F601F05F}|GAME307_StudentTemplate\\GAME307_StudentTemplate.vcxproj|Z:\\Semester 5\\AI\\StudentTemplate\\GAME307_StudentTemplate\\PlayerInRange.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{43AAAF36-7C39-45D1-91C7-AAE5F601F05F}|GAME307_StudentTemplate\\GAME307_StudentTemplate.vcxproj|R:\\AI\\AI_Path_Finding\\StudentTemplate\\GAME307_StudentTemplate\\PlayerInRange.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{43AAAF36-7C39-45D1-91C7-AAE5F601F05F}|GAME307_StudentTemplate\\GAME307_StudentTemplate.vcxproj|solutionrelative:GAME307_StudentTemplate\\PlayerInRange.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{43AAAF36-7C39-45D1-91C7-AAE5F601F05F}|GAME307_StudentTemplate\\GAME307_StudentTemplate.vcxproj|Z:\\Semester 5\\AI\\StudentTemplate\\GAME307_StudentTemplate\\IsHealthLow.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{43AAAF36-7C39-45D1-91C7-AAE5F601F05F}|GAME307_StudentTemplate\\GAME307_StudentTemplate.vcxproj|R:\\AI\\AI_Path_Finding\\StudentTemplate\\GAME307_StudentTemplate\\IsHealthLow.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{43AAAF36-7C39-45D1-91C7-AAE5F601F05F}|GAME307_StudentTemplate\\GAME307_StudentTemplate.vcxproj|solutionrelative:GAME307_StudentTemplate\\IsHealthLow.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{43AAAF36-7C39-45D1-91C7-AAE5F601F05F}|GAME307_StudentTemplate\\GAME307_StudentTemplate.vcxproj|Z:\\Semester 5\\AI\\StudentTemplate\\GAME307_StudentTemplate\\Decision.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{43AAAF36-7C39-45D1-91C7-AAE5F601F05F}|GAME307_StudentTemplate\\GAME307_StudentTemplate.vcxproj|R:\\AI\\AI_Path_Finding\\StudentTemplate\\GAME307_StudentTemplate\\Decision.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{43AAAF36-7C39-45D1-91C7-AAE5F601F05F}|GAME307_StudentTemplate\\GAME307_StudentTemplate.vcxproj|solutionrelative:GAME307_StudentTemplate\\Decision.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{43AAAF36-7C39-45D1-91C7-AAE5F601F05F}|GAME307_StudentTemplate\\GAME307_StudentTemplate.vcxproj|Z:\\Semester 5\\AI\\StudentTemplate\\GAME307_StudentTemplate\\IsPlayerCloseToHome.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{43AAAF36-7C39-45D1-91C7-AAE5F601F05F}|GAME307_StudentTemplate\\GAME307_StudentTemplate.vcxproj|R:\\AI\\AI_Path_Finding\\StudentTemplate\\GAME307_StudentTemplate\\IsPlayerCloseToHome.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{43AAAF36-7C39-45D1-91C7-AAE5F601F05F}|GAME307_StudentTemplate\\GAME307_StudentTemplate.vcxproj|solutionrelative:GAME307_StudentTemplate\\IsPlayerCloseToHome.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{43AAAF36-7C39-45D1-91C7-AAE5F601F05F}|GAME307_StudentTemplate\\GAME307_StudentTemplate.vcxproj|Z:\\Semester 5\\AI\\StudentTemplate\\GAME307_StudentTemplate\\IsHealthLow.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{43AAAF36-7C39-45D1-91C7-AAE5F601F05F}|GAME307_StudentTemplate\\GAME307_StudentTemplate.vcxproj|R:\\AI\\AI_Path_Finding\\StudentTemplate\\GAME307_StudentTemplate\\IsHealthLow.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{43AAAF36-7C39-45D1-91C7-AAE5F601F05F}|GAME307_StudentTemplate\\GAME307_StudentTemplate.vcxproj|solutionrelative:GAME307_StudentTemplate\\IsHealthLow.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{43AAAF36-7C39-45D1-91C7-AAE5F601F05F}|GAME307_StudentTemplate\\GAME307_StudentTemplate.vcxproj|Z:\\Semester 5\\AI\\StudentTemplate\\GAME307_StudentTemplate\\IsPlayerCloseToHome.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{43AAAF36-7C39-45D1-91C7-AAE5F601F05F}|GAME307_StudentTemplate\\GAME307_StudentTemplate.vcxproj|R:\\AI\\AI_Path_Finding\\StudentTemplate\\GAME307_StudentTemplate\\IsPlayerCloseToHome.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{43AAAF36-7C39-45D1-91C7-AAE5F601F05F}|GAME307_StudentTemplate\\GAME307_StudentTemplate.vcxproj|solutionrelative:GAME307_StudentTemplate\\IsPlayerCloseToHome.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
@@ -46,7 +50,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 9,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -54,117 +58,122 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "IsHealthLow.h",
-              "DocumentMoniker": "Z:\\Semester 5\\AI\\StudentTemplate\\GAME307_StudentTemplate\\IsHealthLow.h",
-              "RelativeDocumentMoniker": "GAME307_StudentTemplate\\IsHealthLow.h",
-              "ToolTip": "Z:\\Semester 5\\AI\\StudentTemplate\\GAME307_StudentTemplate\\IsHealthLow.h",
-              "RelativeToolTip": "GAME307_StudentTemplate\\IsHealthLow.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAOAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "Action.h",
+              "DocumentMoniker": "R:\\AI\\AI_Path_Finding\\StudentTemplate\\GAME307_StudentTemplate\\Action.h",
+              "RelativeDocumentMoniker": "GAME307_StudentTemplate\\Action.h",
+              "ToolTip": "R:\\AI\\AI_Path_Finding\\StudentTemplate\\GAME307_StudentTemplate\\Action.h",
+              "RelativeToolTip": "GAME307_StudentTemplate\\Action.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-12-10T03:28:35.205Z",
+              "WhenOpened": "2024-12-10T04:02:20.413Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 8,
+              "Title": "IsHealthLow.h",
+              "DocumentMoniker": "R:\\AI\\AI_Path_Finding\\StudentTemplate\\GAME307_StudentTemplate\\IsHealthLow.h",
+              "RelativeDocumentMoniker": "GAME307_StudentTemplate\\IsHealthLow.h",
+              "ToolTip": "R:\\AI\\AI_Path_Finding\\StudentTemplate\\GAME307_StudentTemplate\\IsHealthLow.h",
+              "RelativeToolTip": "GAME307_StudentTemplate\\IsHealthLow.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-12-10T03:28:35.205Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
               "Title": "IsPlayerCloseToHome.cpp",
-              "DocumentMoniker": "Z:\\Semester 5\\AI\\StudentTemplate\\GAME307_StudentTemplate\\IsPlayerCloseToHome.cpp",
+              "DocumentMoniker": "R:\\AI\\AI_Path_Finding\\StudentTemplate\\GAME307_StudentTemplate\\IsPlayerCloseToHome.cpp",
               "RelativeDocumentMoniker": "GAME307_StudentTemplate\\IsPlayerCloseToHome.cpp",
-              "ToolTip": "Z:\\Semester 5\\AI\\StudentTemplate\\GAME307_StudentTemplate\\IsPlayerCloseToHome.cpp",
+              "ToolTip": "R:\\AI\\AI_Path_Finding\\StudentTemplate\\GAME307_StudentTemplate\\IsPlayerCloseToHome.cpp",
               "RelativeToolTip": "GAME307_StudentTemplate\\IsPlayerCloseToHome.cpp",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAA3AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-12-10T03:21:37.984Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-10T03:21:37.984Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "IsPlayerCloseToHome.h",
+              "DocumentMoniker": "R:\\AI\\AI_Path_Finding\\StudentTemplate\\GAME307_StudentTemplate\\IsPlayerCloseToHome.h",
+              "RelativeDocumentMoniker": "GAME307_StudentTemplate\\IsPlayerCloseToHome.h",
+              "ToolTip": "R:\\AI\\AI_Path_Finding\\StudentTemplate\\GAME307_StudentTemplate\\IsPlayerCloseToHome.h",
+              "RelativeToolTip": "GAME307_StudentTemplate\\IsPlayerCloseToHome.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-12-10T03:21:34.791Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
-              "Title": "IsPlayerCloseToHome.h",
-              "DocumentMoniker": "Z:\\Semester 5\\AI\\StudentTemplate\\GAME307_StudentTemplate\\IsPlayerCloseToHome.h",
-              "RelativeDocumentMoniker": "GAME307_StudentTemplate\\IsPlayerCloseToHome.h",
-              "ToolTip": "Z:\\Semester 5\\AI\\StudentTemplate\\GAME307_StudentTemplate\\IsPlayerCloseToHome.h",
-              "RelativeToolTip": "GAME307_StudentTemplate\\IsPlayerCloseToHome.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAiAAAAAAAAAA==",
+              "Title": "Decision.h",
+              "DocumentMoniker": "R:\\AI\\AI_Path_Finding\\StudentTemplate\\GAME307_StudentTemplate\\Decision.h",
+              "RelativeDocumentMoniker": "GAME307_StudentTemplate\\Decision.h",
+              "ToolTip": "R:\\AI\\AI_Path_Finding\\StudentTemplate\\GAME307_StudentTemplate\\Decision.h",
+              "RelativeToolTip": "GAME307_StudentTemplate\\Decision.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-12-10T03:21:34.791Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-10T03:02:08.402Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "Decision.h",
-              "DocumentMoniker": "Z:\\Semester 5\\AI\\StudentTemplate\\GAME307_StudentTemplate\\Decision.h",
-              "RelativeDocumentMoniker": "GAME307_StudentTemplate\\Decision.h",
-              "ToolTip": "Z:\\Semester 5\\AI\\StudentTemplate\\GAME307_StudentTemplate\\Decision.h",
-              "RelativeToolTip": "GAME307_StudentTemplate\\Decision.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-12-10T03:02:08.402Z",
-              "EditorCaption": ""
+              "Title": "IsHealthLow.cpp",
+              "DocumentMoniker": "R:\\AI\\AI_Path_Finding\\StudentTemplate\\GAME307_StudentTemplate\\IsHealthLow.cpp",
+              "RelativeDocumentMoniker": "GAME307_StudentTemplate\\IsHealthLow.cpp",
+              "ToolTip": "R:\\AI\\AI_Path_Finding\\StudentTemplate\\GAME307_StudentTemplate\\IsHealthLow.cpp",
+              "RelativeToolTip": "GAME307_StudentTemplate\\IsHealthLow.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-12-10T02:19:47.257Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "IsHealthLow.cpp",
-              "DocumentMoniker": "Z:\\Semester 5\\AI\\StudentTemplate\\GAME307_StudentTemplate\\IsHealthLow.cpp",
-              "RelativeDocumentMoniker": "GAME307_StudentTemplate\\IsHealthLow.cpp",
-              "ToolTip": "Z:\\Semester 5\\AI\\StudentTemplate\\GAME307_StudentTemplate\\IsHealthLow.cpp",
-              "RelativeToolTip": "GAME307_StudentTemplate\\IsHealthLow.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAXAAAAAAAAAA==",
+              "Title": "PlayerInRange.cpp",
+              "DocumentMoniker": "R:\\AI\\AI_Path_Finding\\StudentTemplate\\GAME307_StudentTemplate\\PlayerInRange.cpp",
+              "RelativeDocumentMoniker": "GAME307_StudentTemplate\\PlayerInRange.cpp",
+              "ToolTip": "R:\\AI\\AI_Path_Finding\\StudentTemplate\\GAME307_StudentTemplate\\PlayerInRange.cpp",
+              "RelativeToolTip": "GAME307_StudentTemplate\\PlayerInRange.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAABSAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-12-10T02:19:47.257Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-10T02:15:09.58Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "PlayerInRange.cpp",
-              "DocumentMoniker": "Z:\\Semester 5\\AI\\StudentTemplate\\GAME307_StudentTemplate\\PlayerInRange.cpp",
-              "RelativeDocumentMoniker": "GAME307_StudentTemplate\\PlayerInRange.cpp",
-              "ToolTip": "Z:\\Semester 5\\AI\\StudentTemplate\\GAME307_StudentTemplate\\PlayerInRange.cpp",
-              "RelativeToolTip": "GAME307_StudentTemplate\\PlayerInRange.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAABSAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-12-10T02:15:09.58Z",
-              "EditorCaption": ""
+              "Title": "PlayerInRange.h",
+              "DocumentMoniker": "R:\\AI\\AI_Path_Finding\\StudentTemplate\\GAME307_StudentTemplate\\PlayerInRange.h",
+              "RelativeDocumentMoniker": "GAME307_StudentTemplate\\PlayerInRange.h",
+              "ToolTip": "R:\\AI\\AI_Path_Finding\\StudentTemplate\\GAME307_StudentTemplate\\PlayerInRange.h",
+              "RelativeToolTip": "GAME307_StudentTemplate\\PlayerInRange.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-12-09T23:48:43.326Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "PlayerInRange.h",
-              "DocumentMoniker": "Z:\\Semester 5\\AI\\StudentTemplate\\GAME307_StudentTemplate\\PlayerInRange.h",
-              "RelativeDocumentMoniker": "GAME307_StudentTemplate\\PlayerInRange.h",
-              "ToolTip": "Z:\\Semester 5\\AI\\StudentTemplate\\GAME307_StudentTemplate\\PlayerInRange.h",
-              "RelativeToolTip": "GAME307_StudentTemplate\\PlayerInRange.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAUAAAAAAAAAA==",
+              "Title": "Character.h",
+              "DocumentMoniker": "R:\\AI\\AI_Path_Finding\\StudentTemplate\\GAME307_StudentTemplate\\Character.h",
+              "RelativeDocumentMoniker": "GAME307_StudentTemplate\\Character.h",
+              "ToolTip": "R:\\AI\\AI_Path_Finding\\StudentTemplate\\GAME307_StudentTemplate\\Character.h",
+              "RelativeToolTip": "GAME307_StudentTemplate\\Character.h",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAiwCMAAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-12-09T23:48:43.326Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-03T21:24:09.02Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Character.h",
-              "DocumentMoniker": "Z:\\Semester 5\\AI\\StudentTemplate\\GAME307_StudentTemplate\\Character.h",
-              "RelativeDocumentMoniker": "GAME307_StudentTemplate\\Character.h",
-              "ToolTip": "Z:\\Semester 5\\AI\\StudentTemplate\\GAME307_StudentTemplate\\Character.h",
-              "RelativeToolTip": "GAME307_StudentTemplate\\Character.h",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAiwCMAAAAQAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-12-03T21:24:09.02Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
               "Title": "Character.cpp",
-              "DocumentMoniker": "Z:\\Semester 5\\AI\\StudentTemplate\\GAME307_StudentTemplate\\Character.cpp",
+              "DocumentMoniker": "R:\\AI\\AI_Path_Finding\\StudentTemplate\\GAME307_StudentTemplate\\Character.cpp",
               "RelativeDocumentMoniker": "GAME307_StudentTemplate\\Character.cpp",
-              "ToolTip": "Z:\\Semester 5\\AI\\StudentTemplate\\GAME307_StudentTemplate\\Character.cpp*",
-              "RelativeToolTip": "GAME307_StudentTemplate\\Character.cpp*",
-              "ViewState": "AgIAAPcAAAAAAAAAAAAiwBUBAAAEAAAAAAAAAA==",
+              "ToolTip": "R:\\AI\\AI_Path_Finding\\StudentTemplate\\GAME307_StudentTemplate\\Character.cpp",
+              "RelativeToolTip": "GAME307_StudentTemplate\\Character.cpp",
+              "ViewState": "AgIAABIBAAAAAAAAAAAiwBMBAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-12-03T21:24:08.398Z",
               "EditorCaption": ""
